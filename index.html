@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./css/all.min.css" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<img src="./imgs/logo.svg" class="logo main" alt="" />
+				<ul class="nav_0 hide">
+					<li class="fas fa-bars hide"></li>
+					<li class="nav_link hide">
+						<img src="./imgs/search.png" class="nav_img" alt="" />
+					</li>
+					<li class="nav_link hide">
+						<input type="text" class="hide click_show" />
+					</li>
+				</ul>
+
+				<ul class="nav_ul_1 small_font margin_left">
+					<li class="nav_link"><a href="#">Microsoft 365</a></li>
+					<li class="nav_link"><a href="#">Office</a></li>
+					<li class="nav_link"><a href="#">Windows</a></li>
+					<li class="nav_link"><a href="#">Surface</a></li>
+					<li class="nav_link" hide="3"><a href="#">Xbox</a></li>
+					<li class="nav_link" hide="2"><a href="#">Deals</a></li>
+					<li class="nav_link" hide="1"><a href="#">Support</a></li>
+					<li class="nav_link more">
+						<a href="#">More </a><i class="arrow down"></i>
+						<ul class="dropdown">
+							<li class="nav_link" hide="3"><a href="#">Xbox</a></li>
+							<li class="nav_link" hide="2"><a href="#">Deals</a></li>
+							<li class="nav_link" hide="1"><a href="#">Support</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="imgDiv hide">
+					<img src="./imgs/logo.svg" class="logo hide" alt="" />
+				</div>
+
+				<ul class="nav_ul_2 small_font margin_left">
+					<li class="nav_link all_microsoft">
+						<a href="#">All Microsoft </a><i class="arrow down"></i>
+					</li>
+					<li class="nav_link">
+						<img src="./imgs/search.png" class="nav_img" alt="" />
+					</li>
+					<li class="nav_link">
+						<img src="./imgs/cart2.png" class="nav_img cart_img" alt="" />
+					</li>
+					<li class="nav_link">
+						<img src="./imgs/user.svg" class="nav_img" alt="" />
+					</li>
+				</ul>
+
+				<ul class="nav_3 hide">
+					<li class="nav_link">
+						<img src="./imgs/cart2.png" class="nav_img cart_img" alt="" />
+					</li>
+					<li class="nav_link">
+						<img src="./imgs/user.svg" class="nav_img" alt="" />
+					</li>
+				</ul>
+
+				<div class="sub_nav">
+					<div class="sub_links">
+						<div class="sub">
+							<h6>Software</h6>
+							<ul class="small_font">
+								<li><a href="#">Windows Apps</a></li>
+								<li><a href="#">OneDrive</a></li>
+								<li><a href="#">Outlook</a></li>
+								<li><a href="#">Skype</a></li>
+								<li><a href="#">OneNote</a></li>
+								<li><a href="#">Microsoft Teams</a></li>
+								<li><a href="#">Microsoft Edge</a></li>
+							</ul>
+						</div>
+
+						<div class="sub">
+							<h6>PCs $ Devices</h6>
+							<ul class="small_font">
+								<li><a href="#">Computers</a></li>
+								<li><a href="#">Shop Xbox</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">VR & Mixed reality</a></li>
+								<li><a href="#">Phones</a></li>
+							</ul>
+						</div>
+
+						<div class="sub">
+							<h6>Entertainment</h6>
+							<ul class="small_font">
+								<li><a href="#">Xbox Game Pass Ultimate</a></li>
+								<li><a href="#">Xbox Live Gold</a></li>
+								<li><a href="#">Xbox games</a></li>
+								<li><a href="#">PC games</a></li>
+								<li><a href="#">Window Digital games</a></li>
+								<li><a href="#">Movies & TV</a></li>
+							</ul>
+						</div>
+
+						<div class="sub">
+							<h6>Business</h6>
+							<ul class="small_font">
+								<li><a href="#">Microsoft Cloud</a></li>
+								<li><a href="#">Microsoft Azure</a></li>
+								<li><a href="#">Microsofr Dynamics 365</a></li>
+								<li><a href="#">Microsoft 365</a></li>
+								<li><a href="#">Windows 365</a></li>
+								<li><a href="#">Microsoft industry</a></li>
+								<li><a href="#">Microsoft Advertising</a></li>
+								<li><a href="#">Shop Business</a></li>
+							</ul>
+						</div>
+
+						<div class="sub">
+							<h6>Developer & IT</h6>
+							<ul class="small_font">
+								<li><a href="#">.NET</a></li>
+								<li><a href="#">Visual Studio</a></li>
+								<li><a href="#">Windows Server</a></li>
+								<li><a href="#">Windows Dev Server</a></li>
+								<li><a href="#">Docs</a></li>
+								<li><a href="#">Power Platform</a></li>
+								<li><a href="#">Power Apps</a></li>
+								<li><a href="#">HoloLens 2</a></li>
+							</ul>
+						</div>
+
+						<div class="sub">
+							<h6>Other</h6>
+							<ul class="small_font">
+								<li><a href="#">Microsoft Reward</a></li>
+								<li><a href="#">Free downloads & security</a></li>
+								<li><a href="#">Education</a></li>
+								<li><a href="#">Virtual workshops and training</a></li>
+								<li><a href="#">Gift cards</a></li>
+								<li><a href="#">Holiday gifts</a></li>
+								<li><a href="#">Licensing</a></li>
+								<li><a href="#">Microsoft Experience Center</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="site_map"></div>
+				</div>
+			</nav>
+
+			<div class="warning">
+				<p>
+					Finish your gift list with great deals on Surface,PCs,Xbox accessories
+					,and more.Shop Now
+					<i class="fas fa-angle-right"></i>
+				</p>
+			</div>
+			<div class="carousel">
+				<img src="./imgs/laptop6.webp" alt="" />
+				<div class="caro_info">
+					<h4>Unwarp Possibility</h4>
+					<p class="medium_font">
+						Tis the season to save on powerful ,portable Surface devices for
+						everyone on your list.Book an appointment to fet one-on-one help
+						with your holiday shopping
+					</p>
+					<a href="#" class="btn">
+						<p>Shop Surface deals</p>
+						<i class="fas fa-angle-right"></i>
+					</a>
+					<a href="#" class="link"
+						>Book an appointment <i class="fas fa-angle-right"></i
+					></a>
+				</div>
+			</div>
+			<div class="swiper mySwiper">
+				<div class="showcase swiper-wrapper">
+					<div class="item swiper-slide">
+						<div class="img">
+							<img src="./imgs/RE4sQDc.png" alt="" />
+						</div>
+						<p class="item_info">Choose Your microsoft 365</p>
+					</div>
+					<div class="item swiper-slide">
+						<div class="img">
+							<img src="./imgs/small_1.webp" alt="" />
+						</div>
+						<p class="item_info">Shop Surface devices</p>
+					</div>
+					<div class="item swiper-slide">
+						<div class="img">
+							<img src="./imgs/xbox_icon.webp" alt="" />
+						</div>
+						<p class="item_info">Buy Xbox games and consoles</p>
+					</div>
+					<div class="item swiper-slide">
+						<div class="img">
+							<img src="./imgs/RE4sQDc.png" alt="" />
+						</div>
+						<p class="item_info">Get windows 11</p>
+					</div>
+					<div class="item swiper-slide">
+						<div class="img">
+							<img src="./imgs/laptop_icon.webp" alt="" />
+						</div>
+						<p class="item_info">Find your next PC</p>
+					</div>
+					<div class="item swiper-slide">
+						<div class="img">
+							<img src="./imgs/small_2envelope.webp" alt="" />
+						</div>
+						<p class="item_info">Shop Business</p>
+					</div>
+				</div>
+			</div>
+			<div class="ads">
+				<div class="ads_item">
+					<img src="./imgs/RWPwab.webp" alt="" />
+					<h4 class="medium_font">Surface Laptop Studio Essentials Bundle</h4>
+					<p class="medium_font">
+						Bundle and save on Surface Laptop Studio.Complete Warrenty. and
+						Microsoft 365, plus get 20% off optional accessories to make the
+						most of your decive
+					</p>
+					<a href="#" class="link"
+						>Shop Now <i class="fas fa-angle-right"></i
+					></a>
+				</div>
+
+				<div class="ads_item">
+					<img src="./imgs/RWPwab.webp" alt="" />
+					<h4 class="medium_font">$600 off select Surface Pro 7</h4>
+					<p class="medium_font">
+						Score last-minute savings on powerful processing,improved battery
+						life,and even more multitasking connections
+					</p>
+					<a href="#" class="link"
+						>Shop Surface pro 7<i class="fas fa-angle-right"></i
+					></a>
+				</div>
+
+				<div class="ads_item">
+					<img src="./imgs/xbox.webp" alt="" />
+					<h4 class="medium_font">Xbox Game Pass for PC</h4>
+					<p class="medium_font">
+						Unwrap 100+ great games and EA play, plus get your first 3 monthis
+						for $1.Offer available to new subscriber only
+					</p>
+					<a href="#" class="link"
+						>join now <i class="fas fa-angle-right"></i
+					></a>
+				</div>
+
+				<div class="ads_item">
+					<img src="./imgs/RWMIGD.webp" alt="" />
+					<h4 class="medium_font">There is no time like the present</h4>
+					<p class="medium_font">
+						Go ahead-make spirits bright with powerful PC
+					</p>
+					<a href="#" class="link"
+						>Shop PCs <i class="fas fa-angle-right"></i
+					></a>
+				</div>
+			</div>
+			<div class="xbox">
+				<div class="xbox_info">
+					<h4>Elevate their game</h4>
+					<p>
+						Keep your favourite gamer on target with the modernized Xbox
+						Wireless Contr4oller designed ,for enhanced comfort
+					</p>
+					<a href="#" class="btn">
+						<p>Shop Now</p>
+						<i class="fas fa-angle-right"></i>
+					</a>
+				</div>
+				<img src="./imgs/xbox3.webp" alt="" />
+			</div>
+			<div class="business_section">
+				<h4 class="for_business">For Business</h4>
+				<div class="business">
+					<div class="bus_item">
+						<img src="./imgs/RWJUmY.webp" alt="" />
+						<h4 class="medium_font">Surface Pro 7+ for Business</h4>
+						<p class="medium_font">
+							Power your productivity with this versatile 2-in-1,now with
+							optional LTE Advanced connecity
+						</p>
+						<a href="#" class="link"
+							>Shop now <i class="fas fa-angle-right"></i
+						></a>
+						<a href="#" class="link"
+							>Shop Enterprose <i class="fas fa-angle-right"></i
+						></a>
+					</div>
+
+					<div class="bus_item">
+						<img src="./imgs/RWLJ3u.webp" alt="" />
+						<h4 class="medium_font">Get Microsoft Teams for free</h4>
+						<p class="medium_font">
+							Get online meetings, chat, and shared cloud storage - all in one
+							place with the free version of Microsoft Teams
+						</p>
+						<a href="#" class="link"
+							>Sign up for free <i class="fas fa-angle-right"></i
+						></a>
+					</div>
+
+					<div class="bus_item">
+						<img src="./imgs/window11.webp" alt="" />
+						<h4 class="medium_font">Windows 11 for business is here</h4>
+						<p class="medium_font">
+							Designed for hybrid work.Powerful for employees.Consistent for
+							IT.Secure for all
+						</p>
+						<a href="#" class="link"
+							>Learn more <i class="fas fa-angle-right"></i
+						></a>
+					</div>
+
+					<div class="bus_item">
+						<img src="./imgs/RE4E4rT.webp" alt="" />
+						<h4 class="medium_font">Microsoft 365 for business</h4>
+						<p class="medium_font">
+							Stay a step ahead with powerful apps for productivity,connection,
+							and security. Make an appoinment with an expert to determine the
+							best solution for your business
+						</p>
+						<a href="#" class="link"
+							>Shop now <i class="fas fa-angle-right"></i
+						></a>
+						<a href="#" class="link"
+							>Book a consultation <i class="fas fa-angle-right"></i
+						></a>
+					</div>
+				</div>
+			</div>
+			<div class="covid">
+				<h2>Microsoft's response to COVID-19</h2>
+				<p class="medium_font">
+					Read how we're responding the COVID'19 outbreak,and get resources to
+					help
+				</p>
+				<a href="#" class="covid_link link"
+					>Learn More <i class="fas fa-angle-right"></i
+				></a>
+			</div>
+			<div class="follow">
+				<p>Follow Microsoft</p>
+				<img src="./imgs/facebook.svg" alt="" />
+				<img src="./imgs/twitter.svg" alt="" />
+				<img src="./imgs/linkedin.svg" alt="" />
+			</div>
+		</div>
+		<div class="footer">
+			<div class="sub_links">
+				<div class="sub">
+					<h6>What's new</h6>
+					<ul class="small_font">
+						<li><a href="#">Surface pro 8</a></li>
+						<li><a href="#">Surface Laptop Studio</a></li>
+						<li><a href="#">Surface Pro X</a></li>
+						<li><a href="#">Surface Go 3</a></li>
+						<li><a href="#">Surface Duo 2</a></li>
+						<li><a href="#">Surface Pro 7 +</a></li>
+						<li><a href="#">Windows 11 apps</a></li>
+						<li><a href="#">HoloLens 2</a></li>
+					</ul>
+				</div>
+
+				<div class="sub">
+					<h6>Microsoft Store</h6>
+					<ul class="small_font">
+						<li><a href="#">Account Profile</a></li>
+						<li><a href="#">Download Center</a></li>
+						<li><a href="#">Microsoft Store Support</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Order tracking</a></li>
+						<li><a href="#">Virtual workshop and training</a></li>
+						<li><a href="#">Microsoft Store Promise</a></li>
+						<li><a href="#">Flexible Payments</a></li>
+					</ul>
+				</div>
+
+				<div class="sub">
+					<h6>Education</h6>
+					<ul class="small_font">
+						<li><a href="#">Microsoft in education</a></li>
+						<li><a href="#">Office for students</a></li>
+						<li><a href="#">Office 365 for schools</a></li>
+						<li><a href="#">Deals for students and parents</a></li>
+						<li><a href="#">Microsoft Azure in education</a></li>
+					</ul>
+				</div>
+
+				<div class="sub">
+					<h6>Enterprise</h6>
+					<ul class="small_font">
+						<li><a href="#">Azure</a></li>
+						<li><a href="#">AppSource</a></li>
+						<li><a href="#">Automotive</a></li>
+						<li><a href="#">Government</a></li>
+						<li><a href="#">Healthcare</a></li>
+						<li><a href="#">Manufacturing</a></li>
+						<li><a href="#">Financial services</a></li>
+						<li><a href="#">Retail</a></li>
+					</ul>
+				</div>
+
+				<div class="sub">
+					<h6>Developer</h6>
+					<ul class="small_font">
+						<li><a href="#">.NET</a></li>
+						<li><a href="#">Microsoft Visual Studio</a></li>
+						<li><a href="#">Windows Dev Center</a></li>
+						<li><a href="#">Dev Center</a></li>
+						<li><a href="#">Microsoft developer programs</a></li>
+						<li><a href="#">Microsoft 365 Dev Center</a></li>
+						<li><a href="#">Microsoft 365 Ddeveloper programs</a></li>
+						<li><a href="#">Microsoft Garage</a></li>
+					</ul>
+				</div>
+
+				<div class="sub">
+					<h6>Company</h6>
+					<ul class="small_font">
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">About Microsoft</a></li>
+						<li><a href="#">Company news</a></li>
+						<li><a href="#">Privacy at Microsoft</a></li>
+						<li><a href="#">Investors</a></li>
+						<li><a href="#">Diversity and inclusion</a></li>
+						<li><a href="#">Accessibility</a></li>
+						<li><a href="#">Security</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="fot_nav">
+				<div class="globe">
+					<i class="fas fa-globe"></i> English (United States)
+				</div>
+				<ul>
+					<li><a href="#">Sitemap</a></li>
+					<li><a href="#">Contact Microsoft</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Term of use</a></li>
+					<li><a href="#">Trademarks</a></li>
+					<li><a href="#">Safety & eco</a></li>
+					<li><a href="#">About our ads</a></li>
+					<li><a href="#">&copy;Microsoft 2021</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //Script Files// -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"
+			integrity="sha512-qWVvreMuH9i0DrugcOtifxdtZVBBL0X75r9YweXsdCHtXUidlctw7NXg5KVP3ITPtqZ2S575A0wFkvgS2anqSA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+			integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"
+			integrity="sha512-0mXreXYrXoy9laHoypsAOjuSCqh57vY+kIdE46k8Hw0yRY1EhJyHWUEAqfHOTrPkBpsbO39/ZPw5HITv8mLVOA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
